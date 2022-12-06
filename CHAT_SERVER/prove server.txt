@@ -1,0 +1,19 @@
+
+{"header": "#NICKNAME_REQUEST", "corpo": "artorias è il migliore", "mittente": "ginno", "destinatario": "SERVER"}/n
+
+
+{"header": "#PRIVATE_TO", "corpo": "sassaioli maledetti", "mittente": "artorias è il migliore", "destinatario": "artorias è il migliore"}/n
+
+{"header": "#PUBLIC_MESSAGE", "corpo": "gubbio in fiamme", "mittente": "artorias è il migliore", "destinatario": ""}/n
+
+{"header": "#I_AM_DISCONNECTED", "corpo": "", "mittente": "artorias è il migliore", "destinatario": "SERVER"}/n
+
+________________________manus____________________
+
+{"header": "#NICKNAME_REQUEST", "corpo": "manus il peggiore", "mittente": "ginno", "destinatario": "SERVER"}/n
+
+{"header": "#PRIVATE_TO", "corpo": "petite londo", "mittente": "manus il peggiore", "destinatario": "artorias è il migliore"}/n
+
+{"header": "#I_AM_DISCONNECTED", "corpo": "", "mittente": "manus il peggiore", "destinatario": "SERVER"}/n
+
+{"header": "#PUBLIC_MESSAGE", "corpo": "gubbio in fiamme", "mittente": "manus il peggiore", "destinatario": ""}/n

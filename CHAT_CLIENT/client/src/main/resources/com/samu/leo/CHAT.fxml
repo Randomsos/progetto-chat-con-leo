@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+
+<Pane fx:id="APPLICAZIONE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.samu.leo.ControllerMain">
+   <children>
+      <Pane fx:id="PARTE_SINISTRA" prefHeight="600.0" prefWidth="275.0" style="-fx-background-color: #0C6497;">
+         <children>
+            <ListView fx:id="TUTTI_GLI_UTENTI" layoutY="62.0" prefHeight="470.0" prefWidth="275.0" style="-fx-background-color: #0C6497;" />
+            <Label fx:id="NOME_DELLA_CHAT" layoutY="11.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="254.0" style="-fx-background-color: #F7B538; -fx-background-radius: 0 50 50 0;">
+               <effect>
+                  <DropShadow height="137.97" radius="68.485" width="137.97">
+                     <color>
+                        <Color opacity="0.3715805411338806" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Label>
+            <ImageView fx:id="LOGO" fitHeight="40.0" fitWidth="40.0" layoutX="12.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@./Resources/Logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="NICKNAME" layoutY="530.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="254.0" style="-fx-background-color: #F7B538; -fx-background-radius: 0 50 50 0;">
+               <effect>
+                  <DropShadow height="137.97" radius="68.485" width="137.97">
+                     <color>
+                        <Color opacity="0.3715805411338806" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="CHAT" layoutX="275.0" prefHeight="600.0" prefWidth="525.0" style="-fx-background-color: #031926; -fx-border-color: #F7B538; -fx-border-width: 0 0 0 8;">
+         <children>
+            <ListView fx:id="CHAT_MESSAGGI" layoutX="29.0" layoutY="56.0" prefHeight="483.0" prefWidth="470.0" style="-fx-background-color: #031926;" />
+            <TextField fx:id="TEXT_IN" layoutX="28.0" layoutY="530.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" style="-fx-border-radius: 50; -fx-background-radius: 50;" />
+            <Button fx:id="BOTTONE_INVIO" layoutX="448.0" layoutY="530.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #F7B538; -fx-background-radius: 50;" />
+            <Label fx:id="NOME_CHAT" layoutX="29.0" layoutY="11.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="470.0" style="-fx-background-color: #F7B538; -fx-background-radius: 50;">
+               <effect>
+                  <DropShadow height="123.94" radius="58.545" width="112.24" />
+               </effect>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow height="191.78" radius="73.16499999999999" width="102.88" />
+         </effect>
+      </Pane>
+   </children>
+</Pane>
